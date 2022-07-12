@@ -43,6 +43,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+## `💻` Görseller
+![image](https://user-images.githubusercontent.com/84875764/178515785-b049bd40-4dcb-4fa6-9484-899f268f2546.png)
+![image](https://user-images.githubusercontent.com/84875764/178517328-b6f9959e-b18c-472b-aa65-d6d958cd1194.png)
+![image](https://user-images.githubusercontent.com/84875764/178517394-53409711-db9d-495f-99f4-03f9eb363719.png)
+
+
+
 ## `📞` İletişim
 - Discord hesabım ile benimle iletişime geçebilirsiniz: [Loiren#0009](https://discord.com/users/915326086932484126)
 
