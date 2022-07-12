@@ -7,6 +7,12 @@ module.exports = (client, config) => {
         const userName = modal.getTextInputValue('userName');
         const userGender = modal.getSelectMenuValues('userGender');
         const checkUserName = await db.findOne({ username: userName }).lean();
+        const checkUser = await db.findOne({ id: modal.user.id }).lean();
+
+        if(checkUser) return modal.reply({
+            content: 'Zaten kayıtlısınız.',
+            ephemeral: true
+        });
 
         if(checkUserName) return modal.reply({
             content: 'Bu kullanıcı adı başka bir kullanıcı tarafından alınmış. Lütfen başka bir kullanıcı adı deneyin.',
