@@ -10,6 +10,7 @@ module.exports = (client, config) => {
         if(msg.author.bot) return;
 
         let checkUser = await user.findOne({ id: msg.author.id });
+        if(!checkUser) return;
 
         let checkChannel1;
         checkChat.user1_channel === msg.channel.id ? checkChannel1 = true : checkChannel1 = false;
