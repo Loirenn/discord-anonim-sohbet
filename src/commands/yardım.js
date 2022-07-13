@@ -28,7 +28,7 @@ module.exports = {
                 .addComponents(
                     new MessageButton()
                     .setLabel("Kaynak kodu")
-                    .setURL("https://google.com")
+                    .setURL("https://github.com/Loirenn/discord-anonim-sohbet/")
                     .setStyle("LINK")
                 )
             ]
