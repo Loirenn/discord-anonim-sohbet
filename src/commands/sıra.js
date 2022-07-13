@@ -15,7 +15,7 @@ module.exports = {
 
         await interaction.reply({
            content: `Anonim sohbet arayan **${db?.length || 0}** kullanıcı bulunuyor.`,
-            ephemeral: true
+           ephemeral: true
         });
        
     }
