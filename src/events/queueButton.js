@@ -112,7 +112,6 @@ module.exports = (client, config) => {
                embeds: [
                 new MessageEmbed()
                 .setColor("BLURPLE")
-
                 .setDescription(`🕵️ **|** ${random.nickname} kullanıcısı ile bir eşleşme yakaladınız.\n📪 **|** Kullanıcı durumu: **${checkRandomUser?.reported < 10 ? "💚 Güvenilir gözüküyor." : "❤️ Kullanıcı güvenilir değil."}**`)
                ] 
             });
